@@ -1,0 +1,423 @@
+.navcontainer {
+    /* background-color: antiquewhite; */
+    width: 1158px;
+    height: 102px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 186px; */
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 141px;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.navh1 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin: auto;
+
+}
+
+.navlogo {
+    height: 62px;
+    width: 62px;
+}
+
+.navulcontainer {
+    width: 387px;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+
+}
+
+nav div ul li {
+    list-style: none;
+    font-size: 1.25rem;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.logodiv {
+    display: flex;
+}
+
+.navli1 {
+    color: orange;
+}
+
+.navli2 {
+    color: skyblue;
+}
+
+.navli3 {
+    color: #05D4DF;
+}
+
+.navli4 {
+    color: #5D58EF;
+}
+
+.navbtn {
+    background-color: orange;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    border-color: orange;
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+
+.bannercontainer {
+    width: 1158px;
+    height: 575px;
+    /* background-color: tomato; */
+    padding: 0px;
+    margin-left: 141px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bannersec1 {
+    width: 640px;
+    height: 318px;
+    /* background-color: rgb(224, 222, 221); */
+    padding: 128.5px 0px;
+    margin-left: 0px;
+}
+
+.bannerh1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 640px;
+    height: 183px;
+    margin: 0px;
+
+}
+
+.bannerp {
+    font-size: 1.25rem;
+    width: 640px;
+    height: 52px;
+    margin: 20px 0px;
+}
+
+.bannerbtn {
+    font-size: 1.25rem;
+    font-weight: 700;
+    width: 197px;
+    height: 35px;
+    border-radius: 12px;
+    background-color: black;
+    color: #ffffff;
+}
+
+.bannerimg {
+    width: 468.61px;
+    height: 575px;
+}
+
+/* Standard Curricular Section */
+.currsec {
+    width: 1158px;
+    height: 759px;
+    background-color: #5D58EF;
+    margin-left: 141px;
+    padding: 60px 0px;
+}
+
+.currh1 {
+    font-size: 2.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.currcardsec {
+    width: 1160px;
+    height: 481.50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currcard1 {
+    width: 367.8px;
+    height: 476.78px;
+    position: relative;
+    margin: 80px 0px;
+    background-image: linear-gradient(to bottom, #DEF5FF, #fcfcfc);
+    border-radius: 18.8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.currcard2 {
+    width: 367.8px;
+    height: 476.78px;
+    position: relative;
+    margin: 80px 0px;
+    background-image: linear-gradient(to bottom, #FFF4DC, #fcfcfc);
+    border-radius: 18.8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.currcard3 {
+    width: 367.8px;
+    height: 476.78px;
+    position: relative;
+    margin: 80px 0px;
+    background-image: linear-gradient(to bottom, #F2E8FF, #fcfcfc);
+    border-radius: 18.8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.cardimg {
+    width: 136.76px;
+    height: 136.76px;
+    /* position: relative; */
+    padding-top: 52.82px
+}
+
+.currcardh1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.currcardp {
+    font-size: 1rem;
+    text-align: center;
+    width: 286.25px;
+    height: 74.52px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.currbtn {
+    font: 1rem;
+    width: 102.92px;
+    height: 28.82px;
+    border: 0;
+    background-color: transparent;
+}
+
+.btnclr1 {
+    color: #64C8FF;
+}
+
+.btnclr2 {
+    color: #F0AA00;
+}
+
+.btnclr3 {
+    color: #8700FF;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .navcontainer {
+        /* background-color: antiquewhite; */
+        margin-left: 0;
+        width: 390px;
+        height: 70px;
+        padding: auto;
+    }
+
+    .navulcontainer,
+    .navbtn,
+    .navh1 {
+        display: none;
+    }
+
+    .navlogo {
+        height: 46px;
+        width: 46px;
+    }
+
+    .hamburger-icon {
+        display: flex;
+    }
+
+    .bannercontainer {
+        width: 357px;
+        height: 700px;
+        background-color: tomato;
+        /* margin-left: 141px; */
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column-reverse;
+        position: relative;
+        /* top: 78px; */
+        margin-left: 0;
+        margin-top: 78px;
+    }
+
+    /* Resposive Banner But kam hoilo na */
+    .bannersec1 {
+        width: 357px;
+        height: 252px;
+        background-color: rgb(224, 222, 221);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .bannerh1 {
+        font-size: 2rem;
+        font-weight: 700;
+        width: 357px;
+        height: 123px;
+        margin: 0px;
+        text-align-last: center;
+
+    }
+
+    .bannerp {
+        font-size: 0.875rem;
+        width: 357px;
+        height: 54px;
+        padding: 18px 0px;
+        text-align-last: center;
+
+    }
+
+    .bannerbtn {
+        font-size: 1rem;
+        font-weight: 700;
+        width: 131px;
+        height: 42px;
+        border-radius: 8px;
+        background-color: black;
+        color: #ffffff;
+    }
+
+    .bannerimg {
+        width: 336.58px;
+        height: 413px;
+        /* padding: 20px 0px; */
+        margin-left: 10px;
+        position: relative;
+        top: 70px;
+    }
+
+    .currsec {
+        width: 327px;
+        height: 2004px;
+        background-color: #5D58EF;
+        padding: 40px 16px;
+        margin-left: 0;
+    }
+
+    .currh1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+    }
+
+    .currcardsec {
+        width: 1160px;
+        height: 481.50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .currcard1 {
+        width: 357.8px;
+        height: 321.78px;
+        position: relative;
+        margin: 80px 0px;
+        background-image: linear-gradient(to bottom, #DEF5FF, #fcfcfc);
+        border-radius: 18.8px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .currcard2 {
+        width: 367.8px;
+        height: 476.78px;
+        position: relative;
+        margin: 80px 0px;
+        background-image: linear-gradient(to bottom, #FFF4DC, #fcfcfc);
+        border-radius: 18.8px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .currcard3 {
+        width: 367.8px;
+        height: 476.78px;
+        position: relative;
+        margin: 80px 0px;
+        background-image: linear-gradient(to bottom, #F2E8FF, #fcfcfc);
+        border-radius: 18.8px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .cardimg {
+        width: 136.76px;
+        height: 136.76px;
+        /* position: relative; */
+        padding-top: 52.82px
+    }
+
+    .currcardh1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .currcardp {
+        font-size: 1rem;
+        text-align: center;
+        width: 286.25px;
+        height: 74.52px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .currbtn {
+        font: 1rem;
+        width: 102.92px;
+        height: 28.82px;
+        border: 0;
+        background-color: transparent;
+    }
+
+    .btnclr1 {
+        color: #64C8FF;
+    }
+
+    .btnclr2 {
+        color: #F0AA00;
+    }
+
+    .btnclr3 {
+        color: #8700FF;
+    }
+}
